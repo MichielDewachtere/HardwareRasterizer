@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Math">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Renderer">
+      <UniqueIdentifier>{ddb17eba-e15e-4597-8bf6-064b16b159d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Helpers">
+      <UniqueIdentifier>{72056cb6-72a2-42b7-b05e-376f1ddd957e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="EMath.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="EMathUtilities.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="EMatrix.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="EMatrix2.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="EMatrix3.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="EMatrix4.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="EPoint.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="EPoint2.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="EPoint3.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="EPoint4.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="EVector.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="EVector2.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="EVector3.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="EVector4.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="ERenderer.h">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="ERGBColor.h">
+      <Filter>Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="ETimer.h">
+      <Filter>Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ERenderer.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="ETimer.cpp">
+      <Filter>Helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp" />
+  </ItemGroup>
+</Project>
