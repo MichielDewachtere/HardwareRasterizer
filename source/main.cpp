@@ -26,7 +26,7 @@ int main(int argc, char* args[])
 	const uint32_t width = 640;
 	const uint32_t height = 480;
 	SDL_Window* pWindow = SDL_CreateWindow(
-		"DirectX - **Insert Name**",
+		"DirectX - **Dewachtere Michiel**",
 		SDL_WINDOWPOS_UNDEFINED,
 		SDL_WINDOWPOS_UNDEFINED,
 		width, height, 0);
