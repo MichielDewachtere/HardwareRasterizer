@@ -11,6 +11,7 @@
 
 struct SDL_Window;
 struct SDL_Surface;
+class Mesh;
 
 namespace Elite
 {
@@ -47,8 +48,10 @@ namespace Elite
 		ID3D11Texture2D* m_pDepthStencilBuffer;
 		ID3D11DepthStencilView* m_pDepthStencilView;
 
+		Mesh* m_pMesh;
+
+		void MeshInit();
 		HRESULT InitializeDirectX();
 	};
 }
-
 #endif
